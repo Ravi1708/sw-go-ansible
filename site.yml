@@ -1,0 +1,11 @@
+---
+- hosts: "{{ansible_host}}"
+  tasks:
+    - name: commands
+      shell: |
+        hostname && whoami
+      register: output
+
+    - name: output commands
+      debug:
+        var: output.stdout_lines

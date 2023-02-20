@@ -1,0 +1,1 @@
+23.82.14.238 ansible_host=23.82.14.238 ansible_port=22 ansible_user=ubuntu  ansible_ssh_auth_type=password  ansible_become=true ansible_become_method=sudo
